@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="item" type="java.lang.CharSequence"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shopping_list_item_height"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="@dimen/small_margin"
+            android:orientation="horizontal"
+            android:elevation="@dimen/low_elevation">
+
+            <CheckBox
+                android:id="@+id/shopping_list_item_check_box"
+                layout="@layout/shopping_list_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/shopping_list_item_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/reg_margin"
+                android:text="@{item}"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_margin"/>
+
+    </LinearLayout>
+
+</layout>

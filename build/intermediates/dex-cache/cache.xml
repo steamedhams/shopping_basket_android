@@ -3,57 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_bef1036da925810f2c89dd4b06a33002c903c07b/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_8a4ea152701b342c04b3c33b46399db49846b4ce/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_dd49e589c74e0fe63e5db43a59b6c436f1243ca6/classes.dex" />
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_c94b73d01bd11f668e48aae52eb46ceb3bbe7566/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_d33fa3b503c33f40f428e70fe72da85cedd12fc3/classes.dex" />
+        sha1="64f32af504a534f4a5f1eb65f74187307054d934">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9757e4c1f6774c3cc5feb622297a601fda3b2e28/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_cd3d2f78a8757846538734b62c1ae9dd669e83c7/classes.dex" />
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_42cd87a371a9e3d912d91d26b2f0efc5f6d71610/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f79fbb477923b8ececdec94f6f0df8a402cfb58">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0b7f3f910d51beb8c26eb4573773d289ef31bb68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_e74d03c4a4118a41dc7c49936dbba136e0dc4941/classes.dex" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_a827bccb7c7a078bdd9bbb0a636520831d516004/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -62,16 +53,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="d19acb6ed49b9c48228c0e5dff8071fce23be4b8">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.0.6_72f8c5bb6a715993763c92205fac0ac38e127d54/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_1bc159f4a12e955a7d7df8ba7847c86e4208a4ba/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.0.6_72f8c5bb6a715993763c92205fac0ac38e127d54/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,7 +62,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_a478f2a0cdadef09e456b593132383e98f34a1b8/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_a478f2a0cdadef09e456b593132383e98f34a1b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_0af567b45d2b6ec0ab41d946c923423ed3ce0203/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -89,16 +80,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_e2fc892a7928bccdba6b95109eb89515cbbe6129/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_e2fc892a7928bccdba6b95109eb89515cbbe6129/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_5db5936a735198c8a378e7826d23f48376f04060/classes.dex" />
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_1e193b6b5049224994f333822b61e3c1e1358be5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -107,7 +98,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_5427993c4e0bbda9184f4a0eebc488fcaf52ae67/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_5427993c4e0bbda9184f4a0eebc488fcaf52ae67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_a09dba6178d67b9bafa385d96db3e575e19d30d1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -116,43 +116,34 @@
         optimize="true"
         revision="25.0.0"
         sha1="6729c889262e7c2cb6bba30cb9aa93d78167f69b">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxkotlin-0.60.0_b2898ff8e54e0b8d346974f8940d696f31510895/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxkotlin-0.60.0_b2898ff8e54e0b8d346974f8940d696f31510895/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_392fe59d8b1b88feaf43125e785b923edca0502e/classes.dex" />
+        sha1="201a1ee78bc84625f4632076f3373a656b0c43e5">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6a4b29cb39fc643ca5d0d792189f01ce670395dd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_0111a787dc671d0e91d791683cbac7e685295d7b/classes.dex" />
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_7257a21e5b41e0e1e3c70bf9a6f1e8b14be5364e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_a0879ed76539cfdc3e6fd9170cd3f1198be2a941/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_6f84517f28d108c81205d6d5d71fad9faa7a99e9/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_74ec155051fc56162fb521c146bb72a85514d065/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -161,43 +152,52 @@
         optimize="true"
         revision="25.0.0"
         sha1="3562c66f648480d3bd4f76cff722488ced13445b">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-runtime-1.0.6_4a76112bde0aebb5fd266679259cfca99659b3c1/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-runtime-1.0.6_4a76112bde0aebb5fd266679259cfca99659b3c1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_c04c1017e05f4eefd47f4fa5b4e53abee33649a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_44a2e0c30c51828b86db853cef134a544ceddf5c/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_6a31cb0d5c2eeb92af8cab3c5313efda42c0bcdf/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_52b0a8812f1cc953d05f8ffbf8370ee20c9adc6f/classes.dex" />
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_bee9345ff0a98e5786c3ce0b09722f03bb56db8c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e241de53f7c1997f051e0bf91fc1fd661a01b793">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d39df6282323008dcd775b56c1735fe73521b83d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/richard/code/ImageViewZoom/TheShoppingBasket/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_2e812c800be46c452ad0941f69cf37103aec366b/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_823a36bce4821d31ff41bb082f4f9a17f912fbd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_aebf201bd965e0fb966974bf1a273d580391c924/classes.dex" />
     </item>
 
 </items>

@@ -1,3 +1,9 @@
 <resources>
     <dimen name="reg_margin">16dp</dimen>
+    <dimen name="checkbox_height">24dp</dimen>
+    <dimen name="low_elevation">2dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="tiny_margin">4dp</dimen>
+    <dimen name="shopping_list_item_height">48dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
 </resources>
