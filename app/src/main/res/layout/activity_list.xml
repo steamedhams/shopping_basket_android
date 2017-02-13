@@ -17,16 +17,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/colorPrimary"
+                app:titleTextColor="@color/white"
                 app:navigationIcon="@drawable/ic_menu_white_24dp"
                 android:elevation="@dimen/toolbar_elevation"/>
 
             <android.support.v7.widget.RecyclerView
-                android:layout_marginTop="@dimen/tiny_margin"
+                android:paddingTop="@dimen/small_margin"
                 android:id="@+id/shopping_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
+        
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/list_activity_new_item_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/reg_margin"
+            android:src="@drawable/ic_add_white_24dp" />
 
     </android.support.design.widget.CoordinatorLayout>
 

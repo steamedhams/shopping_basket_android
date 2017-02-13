@@ -7,83 +7,59 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.CheckBox
 import com.steamedhams.theshoppingbasket.R
-import com.steamedhams.theshoppingbasket.databinding.ListItemCreateBoxBinding
+import com.steamedhams.theshoppingbasket.ShoppingBasket
+import com.steamedhams.theshoppingbasket.data.model.ShoppingListItem
+import com.steamedhams.theshoppingbasket.data.realm.RealmDelegate
 import com.steamedhams.theshoppingbasket.databinding.ShoppingListItemBinding
-import java.util.*
-import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
-
-
 
 /**
  * Created by richard on 07/02/17.
  */
-class ShoppingListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
-
-    val items = ArrayList<CharSequence>()
+class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingListItemHolder>() {
 
     override fun getItemCount(): Int {
-        return items.size + 1
+        return ShoppingBasket.realmDelegate.getItemCount().toInt()
     }
 
     override fun getItemViewType(position: Int): Int {
-        if (position == itemCount - 1)
-            return R.layout.list_item_create_box
-
         return R.layout.shopping_list_item
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): RecyclerView.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ShoppingListItemHolder {
         val layoutInflater = LayoutInflater.from(parent!!.context)
-
-        if (viewType == R.layout.list_item_create_box) {
-            val itemBinding = DataBindingUtil.inflate<ListItemCreateBoxBinding>(layoutInflater, viewType, parent, false)
-            return CreateListItemViewHolder(object : CreateListItemViewHolder.ItemCreationListener {
-                override fun onItemCreated(item: CharSequence) {
-                    items.add(item)
-                    notifyItemInserted(items.size - 1)
-                }
-            }, itemBinding)
-        }
-
         val itemBinding = DataBindingUtil.inflate<ShoppingListItemBinding>(layoutInflater, viewType, parent, false)
         return ShoppingListItemHolder(itemBinding)
     }
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder?, position: Int) {
-        if (holder is ShoppingListItemHolder) {
-            val listItem = items[position]
-            val shoppingItemHolder: ShoppingListItemHolder = holder
-            shoppingItemHolder.bind(listItem)
-        }
+    override fun onBindViewHolder(holder: ShoppingListItemHolder?, position: Int) {
+        val listItem = ShoppingBasket.realmDelegate.getListItems()[position]
+        holder?.bind(listItem)
+    }
+
+    fun addItem(item : ShoppingListItem) {
+        ShoppingBasket.realmDelegate.addListItem(item)
     }
 
     class ShoppingListItemHolder(val binding: ShoppingListItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: CharSequence) {
+        fun bind(item: ShoppingListItem) {
             binding.item = item
+            decorateText(item.checked)
             (binding.shoppingListItemCheckBox as CheckBox).setOnClickListener { v -> onCheckBoxClicked() }
         }
 
         private fun onCheckBoxClicked() {
             val checked = (binding.shoppingListItemCheckBox as CheckBox).isChecked
-            binding.shoppingListItemValue.paintFlags = binding.shoppingListItemValue.getPaintFlags() or Paint.STRIKE_THRU_TEXT_FLAG
-        }
-    }
-
-    class CreateListItemViewHolder(val listener: ItemCreationListener, val binding: ListItemCreateBoxBinding) : RecyclerView.ViewHolder(binding.root) {
-
-        init {
-            binding.newListItemEditText.setOnEditorActionListener({ textView, i, keyEvent -> addItemToList(textView.text)})
+            ShoppingBasket.realmDelegate.checkItem(checked, adapterPosition)
+            decorateText(checked)
         }
 
-        private fun addItemToList(text: CharSequence): Boolean {
-            listener.onItemCreated(text)
-            binding.newListItemEditText.setText("")
-            return true
-        }
-
-        interface ItemCreationListener {
-            fun onItemCreated(item: CharSequence)
+        private fun decorateText(checked: Boolean) {
+            if (checked) {
+                binding.shoppingListItemValue.paintFlags = binding.shoppingListItemValue.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
+            } else {
+                binding.shoppingListItemValue.paintFlags = 0
+            }
         }
     }
 

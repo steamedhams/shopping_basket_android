@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">The Shopping Basket</string>
+    <string name="app_name">Shopping Basket</string>
     <string name="list_activity_title">Shopping List</string>
+    <string name="dialog_button_cancel">CANCEL</string>
+    <string name="dialog_button_add">ADD</string>
+    <string name="new_list_item_dialog_title">New Item</string>
 </resources>

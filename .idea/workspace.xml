@@ -6,30 +6,39 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43f83caf-26ca-4ef8-b06d-66dd11fb6ca1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_check_box.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/bridgeri127/theshoppingbasket/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/steamedhams/theshoppingbasket/ExampleInstrumentedTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/bridgeri127/theshoppingbasket/ListActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/com/bridgeri127/theshoppingbasket/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/steamedhams/theshoppingbasket/ExampleUnitTest.java" />
+    <list default="true" id="402dc8d5-2c2e-4bf4-b6a6-a49d42a056a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/realm_android_library_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/realm_annotations_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/relinker_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/ShoppingBasket.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/realm/RealmDelegate.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NewListItemDialog.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_white_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/new_list_item_dialog.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/steamedhams/theshoppingbasket/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/steamedhams/theshoppingbasket/ExampleUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="shopping_basket_android.iws" />
@@ -51,96 +60,143 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="shopping_basket_android" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="shopping_basket_android" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="shopping_basket_android" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="shopping_basket_android" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="252">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_list.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="shopping_list_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="72">
+              <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
               <folding>
-                <element signature="e#839#865#0" expanded="true" />
+                <element signature="e#325#359#0" expanded="true" />
+                <element signature="e#395#414#0" expanded="true" />
+                <element signature="e#448#467#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ShoppingListAdapter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="479">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding>
-                <element signature="e#56#539#0" expanded="true" />
+                <element signature="e#56#581#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingListItemBinding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/databinding/ShoppingListItemBinding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharSequence.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/b2f828f696e80b1406a9079b968d12edc06ee916/kotlin-runtime-1.0.6-sources.jar!/kotlin/CharSequence.kt">
+      <file leaf-file-name="RealmDelegate.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/realm/RealmDelegate.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewDataBinding.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/databinding/library/1.2.1/library-1.2.1-sources.jar!/android/databinding/ViewDataBinding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item_create_box.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
-                <element signature="e#291#310#0" expanded="true" />
-                <element signature="e#610#629#0" expanded="true" />
+                <element signature="e#54#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="NewListItemDialog.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NewListItemDialog.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="e#56#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="e#56#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingListItem.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -149,34 +205,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping_list_item.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding>
-                <element signature="e#286#320#0" expanded="true" />
-                <element signature="e#546#567#0" expanded="true" />
-                <element signature="e#643#665#0" expanded="true" />
-                <element signature="e#1148#1167#0" expanded="true" />
-                <element signature="e#1331#1352#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping_list_check_box.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_check_box.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="ShoppingBasket.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/ShoppingBasket.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding>
+                <element signature="e#43#196#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,10 +232,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="ASClass" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile_vertical" />
-        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -227,6 +271,10 @@
           <value>
             <list>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'shopping_basket_android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
@@ -246,33 +294,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processReleaseJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="lintDebug" />
+                <option name="name" value="transformClassesWithRealmTransformerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'shopping_basket_android'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -280,23 +310,8 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'shopping_basket_android' (some of the displayed tasks may belong to subprojects)." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2511Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-compat:25.1.1" />
@@ -304,22 +319,9 @@
                 <option name="name" value="prepareComAndroidSupportSupportCompat2511Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'shopping_basket_android'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dataBindingExportBuildInfoDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -332,24 +334,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -357,24 +346,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processDebugUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -386,32 +358,8 @@
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the debug kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support.test.espresso:espresso-idling-resource:2.2.2" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugAndroidTestManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support.test:rules:0.5" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTestRules05Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -461,15 +409,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -477,19 +417,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dataBindingProcessLayoutsRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -514,21 +442,8 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'shopping_basket_android'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalReleaseUnitTestJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
@@ -537,24 +452,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyDebugAndroidTestKotlinClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseKotlinAfterJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -566,15 +464,6 @@
                 <option name="name" value="installDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the debugUnitTest kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugUnitTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="connectedCheck" />
@@ -583,11 +472,6 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="connectedDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -604,28 +488,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -642,37 +509,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugAndroidTestResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2511Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="androidDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dataBindingExportBuildInfoDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -692,19 +533,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processDebugJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -726,20 +555,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2511Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -760,17 +576,8 @@
                 <option name="name" value="testDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="connectedAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -789,6 +596,359 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.test:runner:0.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportTestRunner05Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2511Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'shopping_basket_android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="checkDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prints out all the source sets defined in this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2511Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportBuildInfoRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on just the fatal issues in the release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintVitalRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the release kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Release builds." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'shopping_basket_android'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'shopping_basket_android' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2511Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'shopping_basket_android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportBuildInfoDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugUnitTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run unit tests for the release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the debug kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.test.espresso:espresso-idling-resource:2.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Debug builds." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.test:rules:0.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportTestRules05Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugAndroidTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingProcessLayoutsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugAndroidTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.getkeepsafe.relinker:relinker:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGetkeepsafeRelinkerRelinker122Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'shopping_basket_android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyDebugAndroidTestKotlinClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the debugUnitTest kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugUnitTestKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.realm:realm-android-library:2.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareIoRealmRealmAndroidLibrary231Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstall all applications." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugAndroidTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2511Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the Android dependencies of the project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="androidDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugUnitTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportBuildInfoDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jarReleaseClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2511Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="connectedAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithDexForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -811,20 +971,6 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support.test:runner:0.5" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTestRunner05Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="lintRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:recyclerview-v7:25.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportRecyclerviewV72511Library" />
@@ -840,40 +986,13 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2511Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:25.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2511Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'shopping_basket_android'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="checkDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="sourceSets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -881,24 +1000,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2511Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="copyDebugKotlinClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:transition:25.1.1" />
@@ -912,29 +1018,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dataBindingExportBuildInfoRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="copyReleaseKotlinClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dataBindingProcessLayoutsDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="uninstallDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
@@ -954,27 +1042,9 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the release kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Release builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.test.espresso:espresso-core:2.2.2" />
@@ -1003,10 +1073,6 @@
                 <option name="name" value="prepareComAndroidDatabindingAdapters121Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'shopping_basket_android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -1017,6 +1083,10 @@
         <entry key="$PROJECT_DIR$/app">
           <value>
             <list>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebugAndroidTest" />
+              </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1042,6 +1112,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1274,6 +1348,11 @@
                 <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.getkeepsafe.relinker:relinker:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGetkeepsafeRelinkerRelinker122Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
@@ -1369,6 +1448,11 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.realm:realm-android-library:2.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareIoRealmRealmAndroidLibrary231Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -1556,6 +1640,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="copyDebugUnitTestKotlinClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles the debugAndroidTest kotlin." />
@@ -1800,7 +1888,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4459507087870" />
+        <entry key="$PROJECT_DIR$" value="4460399190383" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1818,6 +1906,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.2.3/gradle-2.2.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.6/9f7dee17ee9a6183df7e3adbb4d23f0dbcb00191/kotlin-gradle-plugin-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.6/f6a56307a53a4ac69cdac65716f3d2e1a5ca176f/kotlin-gradle-plugin-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/2.3.1/16f54ead3ddf24d5608a21ddc5d081404ce78f6a/realm-gradle-plugin-2.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.2.3/gradle-core-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
@@ -1833,6 +1922,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.6/4008eb91a337b377dae7e4572b8b543e5321f549/kotlin-compiler-embeddable-1.0.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.6/de17c91d319e18862f700d3d680fcc3a5ca53105/kotlin-annotation-processing-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.6/2b96e03fd30de3bf38d3364b6d18ad081bc06340/kotlin-annotation-processing-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-transformer/2.3.1/bfffef6ba92f2201693465245df352b54e3a55d7/realm-transformer-2.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.2.3/builder-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.2.3/lint-25.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
@@ -1848,6 +1940,9 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/b2f828f696e80b1406a9079b968d12edc06ee916/kotlin-runtime-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/3562c66f648480d3bd4f76cff722488ced13445b/kotlin-runtime-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.1/1c1c75a7e1dfee58c51822987dc658f93e036c81/realm-annotations-2.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.2.3/builder-model-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.2.3/builder-test-api-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.2.3/sdklib-25.2.3.jar" />
@@ -1919,6 +2014,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.2.3/gradle-2.2.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.6/9f7dee17ee9a6183df7e3adbb4d23f0dbcb00191/kotlin-gradle-plugin-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.6/f6a56307a53a4ac69cdac65716f3d2e1a5ca176f/kotlin-gradle-plugin-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/2.3.1/16f54ead3ddf24d5608a21ddc5d081404ce78f6a/realm-gradle-plugin-2.3.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.2.3/gradle-core-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
@@ -1934,6 +2030,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.6/4008eb91a337b377dae7e4572b8b543e5321f549/kotlin-compiler-embeddable-1.0.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.6/de17c91d319e18862f700d3d680fcc3a5ca53105/kotlin-annotation-processing-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.6/2b96e03fd30de3bf38d3364b6d18ad081bc06340/kotlin-annotation-processing-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-transformer/2.3.1/bfffef6ba92f2201693465245df352b54e3a55d7/realm-transformer-2.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.2.3/builder-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.2.3/lint-25.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
@@ -1949,6 +2048,9 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/b2f828f696e80b1406a9079b968d12edc06ee916/kotlin-runtime-1.0.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/3562c66f648480d3bd4f76cff722488ced13445b/kotlin-runtime-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.1/1c1c75a7e1dfee58c51822987dc658f93e036c81/realm-annotations-2.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.2.3/builder-model-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.2.3/builder-test-api-2.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.2.3/sdklib-25.2.3.jar" />
@@ -2160,21 +2262,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/bridgeri127/theshoppingbasket/ListActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/bridgeri127/theshoppingbasket/shoppinglist/ListActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/bridgeri127/theshoppingbasket/databinding/ActivityListBinding.java" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/st/theshoppingbasket/theshoppingbasket/databinding/ActivityListBinding.java" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/theshoppingbasket/theshoppingbasket/databinding/ActivityListBinding.java" />
-        <option value="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/BR.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_white_24dp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_check_box.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/util/StringUtils.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NewListItemDialog.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/new_list_item_dialog.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/ShoppingBasket.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/realm/RealmDelegate.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -2209,12 +2315,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2283,11 +2388,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="outputs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2309,210 +2410,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
+              <option name="myItemId" value="outputs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kapt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steamedhams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theshoppingbasket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kapt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steamedhams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theshoppingbasket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="databinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kapt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kapt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="databinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopping_basket_android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
+              <option name="myItemId" value="apk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="Nexus_5_API_25" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="DEBUGGABLE_DEVICE" value="Nexus_5_API_25 [emulator-5554]" />
-    <property name="DEBUGGABLE_PROCESS" value="com.bridgeri127.theshoppingbasket" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="DEBUGGER_ID" value="Auto" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.bridgeri127.theshoppingbasket.shoppinglist" />
-    </key>
+    <property name="VectorAssetImportPath" value="$PROJECT_DIR$/.." />
+    <property name="device.picker.selection" value="FA69J0308959" />
   </component>
   <component name="RunManager" selected="Android App.app">
+    <configuration default="false" name="shopping_basket_android:app [lintRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="lintRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -2631,6 +2571,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2812,9 +2761,15 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.shopping_basket_android:app [lintRelease]" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.shopping_basket_android:app [lintRelease]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -2836,42 +2791,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43f83caf-26ca-4ef8-b06d-66dd11fb6ca1" name="Default" comment="" />
-      <created>1486505315960</created>
+      <changelist id="402dc8d5-2c2e-4bf4-b6a6-a49d42a056a5" name="Default" comment="" />
+      <created>1486936038991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1486505315960</updated>
+      <updated>1486936038991</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13197425" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60622317" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22443339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2881,6 +2836,40 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68240345" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31730238" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2890,67 +2879,439 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt</url>
-          <line>75</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <line>2</line>
+          <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_add_white_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/util/StringUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/theshoppingbasket/theshoppingbasket/databinding/ActivityListBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="59" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/BR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/bridgeri127/theshoppingbasket/databinding/ActivityListBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-25/android.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="198">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="678" column="21" selection-start-line="678" selection-start-column="21" selection-end-line="678" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#388518#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#16257#16258#0" expanded="false" />
+            <element signature="e#16337#16338#0" expanded="false" />
+            <element signature="e#27972#27973#0" expanded="false" />
+            <element signature="e#28007#28008#0" expanded="false" />
+            <element signature="e#65361#65362#0" expanded="false" />
+            <element signature="e#65389#65390#0" expanded="false" />
+            <element signature="e#65534#65535#0" expanded="false" />
+            <element signature="e#65561#65562#0" expanded="false" />
+            <element signature="e#66099#66100#0" expanded="false" />
+            <element signature="e#66127#66128#0" expanded="false" />
+            <element signature="e#66249#66250#0" expanded="false" />
+            <element signature="e#66286#66287#0" expanded="false" />
+            <element signature="e#67173#67174#0" expanded="false" />
+            <element signature="e#67203#67204#0" expanded="false" />
+            <element signature="e#67361#67362#0" expanded="false" />
+            <element signature="e#67395#67396#0" expanded="false" />
+            <element signature="e#68021#68022#0" expanded="false" />
+            <element signature="e#68051#68052#0" expanded="false" />
+            <element signature="e#72455#72456#0" expanded="false" />
+            <element signature="e#72487#72488#0" expanded="false" />
+            <element signature="e#74274#74275#0" expanded="false" />
+            <element signature="e#74312#74313#0" expanded="false" />
+            <element signature="e#80775#80776#0" expanded="false" />
+            <element signature="e#80822#80823#0" expanded="false" />
+            <element signature="e#80975#80976#0" expanded="false" />
+            <element signature="e#81023#81024#0" expanded="false" />
+            <element signature="e#81176#81177#0" expanded="false" />
+            <element signature="e#81224#81225#0" expanded="false" />
+            <element signature="e#81371#81372#0" expanded="false" />
+            <element signature="e#81417#81418#0" expanded="false" />
+            <element signature="e#81673#81674#0" expanded="false" />
+            <element signature="e#81745#81746#0" expanded="false" />
+            <element signature="e#106529#106530#0" expanded="false" />
+            <element signature="e#106565#106566#0" expanded="false" />
+            <element signature="e#107200#107201#0" expanded="false" />
+            <element signature="e#107250#107251#0" expanded="false" />
+            <element signature="e#110504#110505#0" expanded="false" />
+            <element signature="e#110553#110554#0" expanded="false" />
+            <element signature="e#110785#110786#0" expanded="false" />
+            <element signature="e#110835#110836#0" expanded="false" />
+            <element signature="e#112709#112710#0" expanded="false" />
+            <element signature="e#112756#112757#0" expanded="false" />
+            <element signature="e#112963#112964#0" expanded="false" />
+            <element signature="e#113031#113032#0" expanded="false" />
+            <element signature="e#113988#113989#0" expanded="false" />
+            <element signature="e#114049#114050#0" expanded="false" />
+            <element signature="e#115154#115155#0" expanded="false" />
+            <element signature="e#115203#115204#0" expanded="false" />
+            <element signature="e#116889#116890#0" expanded="false" />
+            <element signature="e#116936#116937#0" expanded="false" />
+            <element signature="e#117893#117894#0" expanded="false" />
+            <element signature="e#117945#117946#0" expanded="false" />
+            <element signature="e#119206#119207#0" expanded="false" />
+            <element signature="e#119264#119265#0" expanded="false" />
+            <element signature="e#120155#120156#0" expanded="false" />
+            <element signature="e#120192#120193#0" expanded="false" />
+            <element signature="e#121040#121041#0" expanded="false" />
+            <element signature="e#121084#121085#0" expanded="false" />
+            <element signature="e#123569#123570#0" expanded="false" />
+            <element signature="e#123602#123603#0" expanded="false" />
+            <element signature="e#123797#123798#0" expanded="false" />
+            <element signature="e#123833#123834#0" expanded="false" />
+            <element signature="e#124447#124448#0" expanded="false" />
+            <element signature="e#124485#124486#0" expanded="false" />
+            <element signature="e#126601#126602#0" expanded="false" />
+            <element signature="e#126637#126638#0" expanded="false" />
+            <element signature="e#126867#126868#0" expanded="false" />
+            <element signature="e#126899#126900#0" expanded="false" />
+            <element signature="e#127127#127128#0" expanded="false" />
+            <element signature="e#127159#127160#0" expanded="false" />
+            <element signature="e#127395#127396#0" expanded="false" />
+            <element signature="e#127430#127431#0" expanded="false" />
+            <element signature="e#127617#127618#0" expanded="false" />
+            <element signature="e#127650#127651#0" expanded="false" />
+            <element signature="e#127960#127961#0" expanded="false" />
+            <element signature="e#127996#127997#0" expanded="false" />
+            <element signature="e#128412#128413#0" expanded="false" />
+            <element signature="e#128453#128454#0" expanded="false" />
+            <element signature="e#128822#128823#0" expanded="false" />
+            <element signature="e#128860#128861#0" expanded="false" />
+            <element signature="e#130744#130745#0" expanded="false" />
+            <element signature="e#130781#130782#0" expanded="false" />
+            <element signature="e#132245#132246#0" expanded="false" />
+            <element signature="e#132282#132283#0" expanded="false" />
+            <element signature="e#133845#133846#0" expanded="false" />
+            <element signature="e#133876#133877#0" expanded="false" />
+            <element signature="e#134023#134024#0" expanded="false" />
+            <element signature="e#134067#134068#0" expanded="false" />
+            <element signature="e#135405#135406#0" expanded="false" />
+            <element signature="e#135450#135451#0" expanded="false" />
+            <element signature="e#136278#136279#0" expanded="false" />
+            <element signature="e#136334#136335#0" expanded="false" />
+            <element signature="e#137098#137099#0" expanded="false" />
+            <element signature="e#137155#137156#0" expanded="false" />
+            <element signature="e#137892#137893#0" expanded="false" />
+            <element signature="e#137948#137949#0" expanded="false" />
+            <element signature="e#138796#138797#0" expanded="false" />
+            <element signature="e#138853#138854#0" expanded="false" />
+            <element signature="e#140593#140594#0" expanded="false" />
+            <element signature="e#140653#140654#0" expanded="false" />
+            <element signature="e#141337#141338#0" expanded="false" />
+            <element signature="e#141400#141401#0" expanded="false" />
+            <element signature="e#142073#142074#0" expanded="false" />
+            <element signature="e#142133#142134#0" expanded="false" />
+            <element signature="e#142816#142817#0" expanded="false" />
+            <element signature="e#142879#142880#0" expanded="false" />
+            <element signature="e#144898#144899#0" expanded="false" />
+            <element signature="e#144933#144934#0" expanded="false" />
+            <element signature="e#145289#145290#0" expanded="false" />
+            <element signature="e#145323#145324#0" expanded="false" />
+            <element signature="e#145559#145560#0" expanded="false" />
+            <element signature="e#145605#145606#0" expanded="false" />
+            <element signature="e#153420#153421#0" expanded="false" />
+            <element signature="e#153462#153463#0" expanded="false" />
+            <element signature="e#153788#153789#0" expanded="false" />
+            <element signature="e#153823#153824#0" expanded="false" />
+            <element signature="e#155010#155011#0" expanded="false" />
+            <element signature="e#155052#155053#0" expanded="false" />
+            <element signature="e#155396#155397#0" expanded="false" />
+            <element signature="e#155447#155448#0" expanded="false" />
+            <element signature="e#165288#165289#0" expanded="false" />
+            <element signature="e#165316#165317#0" expanded="false" />
+            <element signature="e#165346#165347#0" expanded="false" />
+            <element signature="e#165380#165381#0" expanded="false" />
+            <element signature="e#184462#184463#0" expanded="false" />
+            <element signature="e#184524#184525#0" expanded="false" />
+            <element signature="e#188365#188366#0" expanded="false" />
+            <element signature="e#188396#188397#0" expanded="false" />
+            <element signature="e#198517#198518#0" expanded="false" />
+            <element signature="e#198580#198581#0" expanded="false" />
+            <element signature="e#198820#198821#0" expanded="false" />
+            <element signature="e#198887#198888#0" expanded="false" />
+            <element signature="e#198947#198948#0" expanded="false" />
+            <element signature="e#199014#199015#0" expanded="false" />
+            <element signature="e#209504#209505#0" expanded="false" />
+            <element signature="e#209528#209529#0" expanded="false" />
+            <element signature="e#218988#218989#0" expanded="false" />
+            <element signature="e#219055#219056#0" expanded="false" />
+            <element signature="e#247583#247584#0" expanded="false" />
+            <element signature="e#247644#247645#0" expanded="false" />
+            <element signature="e#247678#247679#0" expanded="false" />
+            <element signature="e#247737#247738#0" expanded="false" />
+            <element signature="e#248717#248718#0" expanded="false" />
+            <element signature="e#248745#248746#0" expanded="false" />
+            <element signature="e#262362#262363#0" expanded="false" />
+            <element signature="e#262425#262426#0" expanded="false" />
+            <element signature="e#264034#264035#0" expanded="false" />
+            <element signature="e#264068#264069#0" expanded="false" />
+            <element signature="e#288933#288934#0" expanded="false" />
+            <element signature="e#288991#288992#0" expanded="false" />
+            <element signature="e#290068#290069#0" expanded="false" />
+            <element signature="e#290129#290130#0" expanded="false" />
+            <element signature="e#290290#290291#0" expanded="false" />
+            <element signature="e#290349#290350#0" expanded="false" />
+            <element signature="e#291223#291224#0" expanded="false" />
+            <element signature="e#291258#291259#0" expanded="false" />
+            <element signature="e#295398#295399#0" expanded="false" />
+            <element signature="e#295448#295449#0" expanded="false" />
+            <element signature="e#295877#295878#0" expanded="false" />
+            <element signature="e#295919#295920#0" expanded="false" />
+            <element signature="e#296125#296126#0" expanded="false" />
+            <element signature="e#296158#296159#0" expanded="false" />
+            <element signature="e#318646#318647#0" expanded="false" />
+            <element signature="e#318715#318716#0" expanded="false" />
+            <element signature="e#319252#319253#0" expanded="false" />
+            <element signature="e#319281#319282#0" expanded="false" />
+            <element signature="e#329544#329545#0" expanded="false" />
+            <element signature="e#329572#329573#0" expanded="false" />
+            <element signature="e#330530#330531#0" expanded="false" />
+            <element signature="e#330594#330595#0" expanded="false" />
+            <element signature="e#331174#331175#0" expanded="false" />
+            <element signature="e#331215#331216#0" expanded="false" />
+            <element signature="e#332358#332359#0" expanded="false" />
+            <element signature="e#332405#332406#0" expanded="false" />
+            <element signature="e#346587#346588#0" expanded="false" />
+            <element signature="e#346653#346654#0" expanded="false" />
+            <element signature="e#358840#358841#0" expanded="false" />
+            <element signature="e#358899#358900#0" expanded="false" />
+            <element signature="e#358924#358925#0" expanded="false" />
+            <element signature="e#358983#358984#0" expanded="false" />
+            <element signature="e#371315#371316#0" expanded="false" />
+            <element signature="e#371343#371344#0" expanded="false" />
+            <element signature="e#372868#372869#0" expanded="false" />
+            <element signature="e#372910#372911#0" expanded="false" />
+            <element signature="e#372998#372999#0" expanded="false" />
+            <element signature="e#373025#373026#0" expanded="false" />
+            <element signature="e#373117#373118#0" expanded="false" />
+            <element signature="e#373157#373158#0" expanded="false" />
+            <element signature="e#375326#375327#0" expanded="false" />
+            <element signature="e#375367#375368#0" expanded="false" />
+            <element signature="e#376652#376653#0" expanded="false" />
+            <element signature="e#376709#376710#0" expanded="false" />
+            <element signature="e#376763#376764#0" expanded="false" />
+            <element signature="e#376822#376823#0" expanded="false" />
+            <element signature="e#377879#377880#0" expanded="false" />
+            <element signature="e#377917#377918#0" expanded="false" />
+            <element signature="e#377956#377957#0" expanded="false" />
+            <element signature="e#378007#378008#0" expanded="false" />
+            <element signature="e#378061#378062#0" expanded="false" />
+            <element signature="e#378127#378128#0" expanded="false" />
+            <element signature="e#381892#381893#0" expanded="false" />
+            <element signature="e#381930#381931#0" expanded="false" />
+            <element signature="e#385211#385212#0" expanded="false" />
+            <element signature="e#385254#385255#0" expanded="false" />
+            <element signature="e#385283#385284#0" expanded="false" />
+            <element signature="e#385321#385322#0" expanded="false" />
+            <element signature="e#385357#385358#0" expanded="false" />
+            <element signature="e#385402#385403#0" expanded="false" />
+            <element signature="e#385442#385443#0" expanded="false" />
+            <element signature="e#385493#385494#0" expanded="false" />
+            <element signature="e#385530#385531#0" expanded="false" />
+            <element signature="e#385612#385613#0" expanded="false" />
+            <element signature="e#385643#385644#0" expanded="false" />
+            <element signature="e#385700#385701#0" expanded="false" />
+            <element signature="e#385731#385732#0" expanded="false" />
+            <element signature="e#385788#385789#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#889#915#0" expanded="true" />
+            <element signature="e#1006#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#275#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/new_list_item_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#246#265#0" expanded="true" />
+            <element signature="e#293#312#0" expanded="true" />
+            <element signature="e#340#361#0" expanded="true" />
+            <element signature="e#392#413#0" expanded="true" />
+            <element signature="e#628#663#0" expanded="true" />
+            <element signature="e#689#725#0" expanded="true" />
+            <element signature="e#1659#1692#0" expanded="true" />
+            <element signature="e#1727#1748#0" expanded="true" />
+            <element signature="e#1780#1801#0" expanded="true" />
+            <element signature="e#1839#1860#0" expanded="true" />
+            <element signature="e#2179#2208#0" expanded="true" />
+            <element signature="e#2241#2262#0" expanded="true" />
+            <element signature="e#2292#2322#0" expanded="true" />
+            <element signature="e#2616#2645#0" expanded="true" />
+            <element signature="e#2678#2699#0" expanded="true" />
+            <element signature="e#2729#2756#0" expanded="true" />
+            <element signature="e#2798#2819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/databinding/ShoppingListItemBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
+          <folding>
+            <element signature="e#325#359#0" expanded="true" />
+            <element signature="e#395#414#0" expanded="true" />
+            <element signature="e#448#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="e#56#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/ShoppingBasket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/io/realm/ShoppingListItemRealmProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#56#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NewListItemDialog.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="e#56#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/realm/RealmDelegate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#54#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -2958,100 +3319,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding>
-            <element signature="e#839#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_check_box.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        <state relative-caret-position="252">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_create_box.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#291#310#0" expanded="true" />
-            <element signature="e#610#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/b2f828f696e80b1406a9079b968d12edc06ee916/kotlin-runtime-1.0.6-sources.jar!/kotlin/CharSequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/databinding/library/1.2.1/library-1.2.1-sources.jar!/android/databinding/ViewDataBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding>
-            <element signature="e#56#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/databinding/ShoppingListItemBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shopping_list_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="e#286#320#0" expanded="true" />
-            <element signature="e#546#567#0" expanded="true" />
-            <element signature="e#643#665#0" expanded="true" />
-            <element signature="e#1148#1167#0" expanded="true" />
-            <element signature="e#1331#1352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
