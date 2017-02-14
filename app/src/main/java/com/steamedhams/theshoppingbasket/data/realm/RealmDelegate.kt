@@ -35,4 +35,14 @@ class RealmDelegate {
         realm.commitTransaction()
     }
 
+    fun deleteItem(position: Int) {
+        val item = getListItems()[position]
+
+
+        val realm = Realm.getDefaultInstance()
+        realm.beginTransaction()
+        item.deleteFromRealm()
+        realm.commitTransaction()
+    }
+
 }

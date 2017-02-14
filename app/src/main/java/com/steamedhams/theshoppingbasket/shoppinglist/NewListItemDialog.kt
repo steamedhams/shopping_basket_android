@@ -11,6 +11,8 @@ import com.steamedhams.theshoppingbasket.R
 import com.steamedhams.theshoppingbasket.databinding.NewListItemDialogBinding
 
 /**
+ * Dialog class providing a dialog from which users can create new text based shopping list Items
+ * <p>
  * Created by richard on 12/02/17.
  */
 class NewListItemDialog(val hostActivity: Host) : DialogFragment() {
@@ -37,7 +39,7 @@ class NewListItemDialog(val hostActivity: Host) : DialogFragment() {
             true
         })
 
-        dialog.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        dialog.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE)
 
         return binding.root
     }
