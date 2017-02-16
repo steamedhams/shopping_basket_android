@@ -8,12 +8,13 @@ import android.view.LayoutInflater
 import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
-import android.widget.CheckBox
 import com.steamedhams.theshoppingbasket.R
 import com.steamedhams.theshoppingbasket.ShoppingBasket
 import com.steamedhams.theshoppingbasket.data.model.ShoppingListItem
+import com.steamedhams.theshoppingbasket.data.realm.RealmDelegate
 import com.steamedhams.theshoppingbasket.databinding.ShoppingListItemCellBinding
 import java.util.*
+import javax.inject.Inject
 
 /**
  * Adapter to create and provide views representing items in a ShoppingList
@@ -22,10 +23,16 @@ import java.util.*
  */
 class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingListItemHolder>() {
 
+    init {
+        ShoppingBasket.netComponent.inject(this)
+    }
+
+    @Inject lateinit var  realmDelegate : RealmDelegate
+
     val selectedPositions : MutableList<Int> = ArrayList()
 
     override fun getItemCount(): Int {
-        return ShoppingBasket.realmDelegate.getItemCount().toInt()
+        return realmDelegate.getItemCount().toInt()
     }
 
     override fun getItemViewType(position: Int): Int {
@@ -39,18 +46,18 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
     }
 
     override fun onBindViewHolder(holder: ShoppingListItemHolder?, position: Int) {
-        val listItem = ShoppingBasket.realmDelegate.getListItems()[position]
+        val listItem = realmDelegate.getListItems()[position]
         holder?.bind(listItem)
         holder?.setRowSelected(selectedPositions.contains(position))
     }
 
     fun addItem(item : ShoppingListItem) {
-        ShoppingBasket.realmDelegate.addListItem(item)
+        realmDelegate.addListItem(item)
     }
 
     private fun deleteItem(position: Int) {
         selectedPositions.remove(position)
-        ShoppingBasket.realmDelegate.deleteItem(position)
+        realmDelegate.deleteItem(position)
         notifyItemRemoved(position)
     }
 
@@ -63,7 +70,7 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
         notifyItemChanged(position)
     }
 
-    class ShoppingListItemHolder(val binding: ShoppingListItemCellBinding, val adapter :ShoppingListAdapter)
+    inner class ShoppingListItemHolder(val binding: ShoppingListItemCellBinding, val adapter :ShoppingListAdapter)
             : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: ShoppingListItem) {
@@ -90,7 +97,7 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
         private fun onCheckBoxClicked() {
             binding.shoppingListItemCheckBox.performClick()
             val checked = binding.shoppingListItemCheckBox.isChecked
-            ShoppingBasket.realmDelegate.checkItem(checked, adapterPosition)
+            realmDelegate.checkItem(checked, adapterPosition)
             decorateText(checked)
         }
 

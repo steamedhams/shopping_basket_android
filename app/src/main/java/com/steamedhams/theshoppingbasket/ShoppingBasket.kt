@@ -1,10 +1,11 @@
 package com.steamedhams.theshoppingbasket
 
 import android.app.Application
-import com.steamedhams.theshoppingbasket.data.realm.RealmDelegate
+import com.steamedhams.theshoppingbasket.dagger.component.DaggerNetComponent
+import com.steamedhams.theshoppingbasket.dagger.component.NetComponent
+import com.steamedhams.theshoppingbasket.dagger.module.AppModule
 import io.realm.Realm
 import io.realm.RealmConfiguration
-
 
 
 /**
@@ -12,9 +13,8 @@ import io.realm.RealmConfiguration
  */
 class ShoppingBasket : Application() {
 
-    companion object {
-        lateinit var realmDelegate: RealmDelegate
-    }
+    lateinit var appModule : AppModule
+
 
     override fun onCreate() {
         super.onCreate()
@@ -22,7 +22,18 @@ class ShoppingBasket : Application() {
         RealmConfiguration.Builder()
                 .deleteRealmIfMigrationNeeded()
                 .build()
-        realmDelegate = RealmDelegate()
+
+        setUpDagger()
+    }
+
+    private fun setUpDagger() {
+        appModule = AppModule(this)
+
+        netComponent = DaggerNetComponent.builder().build()
+    }
+
+    companion object {
+        lateinit var netComponent : NetComponent
     }
 
 }

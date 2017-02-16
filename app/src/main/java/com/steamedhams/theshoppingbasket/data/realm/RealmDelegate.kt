@@ -2,13 +2,14 @@ package com.steamedhams.theshoppingbasket.data.realm
 
 import com.steamedhams.theshoppingbasket.data.model.ShoppingListItem
 import io.realm.Realm
+import javax.inject.Inject
 
 /**
  * Delegate class to handle interacting with the Realm instance
  * <p>
  * Created by richard on 13/02/17.
  */
-class RealmDelegate {
+class RealmDelegate @Inject constructor()  {
 
     fun getListItems() : List<ShoppingListItem> {
         return Realm.getDefaultInstance().where(ShoppingListItem::class.java).findAll()

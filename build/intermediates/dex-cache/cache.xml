@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_ca38ac3b72b2b78b1d355aeacfb3b9ca5f85afdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/richard/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
         jumboMode="true"
         optimize="true"
@@ -57,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.8/55a1aa1cdcfd06b9950ca856e2bc2790e105146a/dagger-2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.8_333b8f2bd2f044084c90f8f3376f7b1a58bbcbf2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,21 +84,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="86cea61b8497504106922e37e8483e6560adff20">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9757e4c1f6774c3cc5feb622297a601fda3b2e28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
         <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_42cd87a371a9e3d912d91d26b2f0efc5f6d71610/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9f6aff9e0510e1050236485878a310f7db205b63">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9757e4c1f6774c3cc5feb622297a601fda3b2e28/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44572a8098036ab94ee31e28c0be3b7c309c0fc6">
+        sha1="b853573ca05a6c7e882d063eabaa0478acf373b9">
         <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6a4b29cb39fc643ca5d0d792189f01ce670395dd/classes.dex" />
     </item>
     <item
