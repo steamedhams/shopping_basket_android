@@ -2,6 +2,8 @@ package com.steamedhams.theshoppingbasket.dagger.component
 
 import com.steamedhams.theshoppingbasket.dagger.module.AppModule
 import com.steamedhams.theshoppingbasket.dagger.module.NetModule
+import com.steamedhams.theshoppingbasket.shoppinglist.ListActivity
+import com.steamedhams.theshoppingbasket.shoppinglist.NavDrawViewHolder
 import com.steamedhams.theshoppingbasket.shoppinglist.ShoppingListAdapter
 import dagger.Component
 import javax.inject.Singleton
@@ -14,5 +16,11 @@ import javax.inject.Singleton
 interface NetComponent {
 
     fun inject(shoppingListAdapter: ShoppingListAdapter)
+
+    fun inject(listActivity: ListActivity)
+
+    fun inject(shoppingListListAdapter: NavDrawViewHolder.ShoppingListListAdapter)
+
+    fun inject(navDrawViewHolder: NavDrawViewHolder)
 
 }

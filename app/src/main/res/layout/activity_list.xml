@@ -3,40 +3,51 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.design.widget.CoordinatorLayout
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/nav_drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <android.support.design.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/list_toolbar"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="@color/colorPrimary"
-                app:titleTextColor="@color/white"
-                app:navigationIcon="@drawable/ic_menu_white_24dp"
-                android:elevation="@dimen/toolbar_elevation"/>
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <android.support.v7.widget.RecyclerView
-                android:paddingTop="@dimen/small_margin"
-                android:id="@+id/shopping_list"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/list_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/colorPrimary"
+                    app:titleTextColor="@color/white"
+                    app:navigationIcon="@drawable/ic_menu_white_24dp"
+                    android:elevation="@dimen/toolbar_elevation"/>
 
-        </LinearLayout>
-        
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/list_activity_new_item_fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            android:layout_margin="@dimen/reg_margin"
-            android:src="@drawable/ic_add_white_24dp" />
+                <android.support.v7.widget.RecyclerView
+                    android:paddingTop="@dimen/small_margin"
+                    android:id="@+id/shopping_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
 
-    </android.support.design.widget.CoordinatorLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/list_activity_new_item_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="@dimen/reg_margin"
+                android:src="@drawable/ic_add_white_24dp" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <include
+            android:id="@+id/nav_drawer"
+            layout="@layout/nav_drawer_layout"/>
+
+    </android.support.v4.widget.DrawerLayout>
 
 </layout>

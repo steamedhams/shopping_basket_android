@@ -4,7 +4,6 @@
 
     <data>
         <variable name="item" type="com.steamedhams.theshoppingbasket.data.model.ShoppingListItem"/>
-        <variable name="selected" type="Boolean"/>
     </data>
 
     <RelativeLayout
@@ -24,7 +23,7 @@
                     layout="@layout/shopping_list_check_box"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="@{item.checked}"/>
+                    android:checked="@{item.Completed}"/>
 
                 <TextView
                     android:id="@+id/shopping_list_item_value"
@@ -33,7 +32,7 @@
                     android:layout_marginStart="@dimen/large_margin"
                     android:textSize="@dimen/shoppint_list_item_text_size"
                     tools:text="Bananas"
-                    android:text="@{item.value}"/>
+                    android:text="@{item.Title}"/>
 
             </LinearLayout>
 

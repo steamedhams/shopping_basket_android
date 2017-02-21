@@ -4,4 +4,5 @@
     <string name="dialog_button_cancel">CANCEL</string>
     <string name="dialog_button_add">ADD</string>
     <string name="new_list_item_dialog_title">New Item</string>
+    <string name="create_new_list">Create new list</string>
 </resources>

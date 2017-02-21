@@ -29,10 +29,16 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
 
     @Inject lateinit var  realmDelegate : RealmDelegate
 
+    var viewId : String = ""
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
+
     val selectedPositions : MutableList<Int> = ArrayList()
 
     override fun getItemCount(): Int {
-        return realmDelegate.getItemCount().toInt()
+        return realmDelegate.getCountForList(viewId)
     }
 
     override fun getItemViewType(position: Int): Int {
@@ -53,6 +59,7 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
 
     fun addItem(item : ShoppingListItem) {
         realmDelegate.addListItem(item)
+        notifyDataSetChanged()
     }
 
     private fun deleteItem(position: Int) {
@@ -75,7 +82,7 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
 
         fun bind(item: ShoppingListItem) {
             binding.item = item
-            decorateText(item.checked)
+            decorateText(item.Completed)
             binding.root.setOnClickListener{ onCheckBoxClicked() }
             binding.root.setOnLongClickListener {
                 adapter.onViewLongPressed(adapterPosition)

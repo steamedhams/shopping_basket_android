@@ -19,9 +19,10 @@ class ShoppingBasket : Application() {
     override fun onCreate() {
         super.onCreate()
         Realm.init(this)
-        RealmConfiguration.Builder()
+        val config = RealmConfiguration.Builder()
                 .deleteRealmIfMigrationNeeded()
                 .build()
+        Realm.setDefaultConfiguration(config)
 
         setUpDagger()
     }
