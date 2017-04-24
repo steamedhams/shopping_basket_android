@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474781936843",
+    "firebase_url": "https://basket-54020.firebaseio.com",
+    "project_id": "basket-54020",
+    "storage_bucket": "basket-54020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474781936843:android:a871c21b92d467d5",
+        "android_client_info": {
+          "package_name": "com.steamedhams.theshoppingbasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474781936843-f86ef5up4a30m3ltbiq2oevc4jf2lu2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.steamedhams.theshoppingbasket",
+            "certificate_hash": "c4f8af34433d38925201beee22426a8f94c53dd9"
+          }
+        },
+        {
+          "client_id": "474781936843-hfck3t9a7gg7qvdgd3hgtcns34rtlrl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACojGFKmw4b93kAtkw6_vLcpgBHk0nkbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474781936843-hfck3t9a7gg7qvdgd3hgtcns34rtlrl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

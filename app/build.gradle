@@ -6,7 +6,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.bridgeri127.theshoppingbasket"
+        applicationId "com.steamedhams.theshoppingbasket"
         minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
@@ -27,7 +27,6 @@ android {
 
     dataBinding {
         enabled = true
-        version = "2.2.0"
     }
 
     lintOptions {
@@ -51,7 +50,7 @@ dependencies {
     compile 'com.android.support:design:25.1.1'
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    kapt "com.android.databinding:compiler:$android.dataBinding.version"
+    kapt "com.android.databinding:compiler:$gradle_version"
 
     compile 'io.reactivex:rxkotlin:0.60.0'
     compile 'io.reactivex:rxandroid:1.2.0'
@@ -66,6 +65,15 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-moshi:2.0.0'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+
+
+    // Firebase
+    compile 'com.google.firebase:firebase-auth:10.2.1'
+
+    // Google Services
+    apply plugin: 'com.google.gms.google-services'
+    compile 'com.google.android.gms:play-services-auth:10.2.1'
+
 }
 repositories {
     mavenCentral()

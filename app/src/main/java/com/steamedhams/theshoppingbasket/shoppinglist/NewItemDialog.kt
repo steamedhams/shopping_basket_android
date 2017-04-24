@@ -33,11 +33,11 @@ class NewItemDialog(val callback : (String) -> Unit) : DialogFragment() {
             dismiss()
         }
 
-        binding.newListItemEditText.setOnEditorActionListener({ textView, i, keyEvent ->
+        binding.newListItemEditText.setOnEditorActionListener { textView, _, _ ->
             callback(textView.text.toString())
             dismiss()
             true
-        })
+        }
 
         dialog.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE)
 
