@@ -10,102 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402dc8d5-2c2e-4bf4-b6a6-a49d42a056a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/adapter_rxjava_2_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/adapters_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baseLibrary_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_auth_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_common_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_base_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/realm_android_library_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/realm_annotations_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/relinker_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/realm/RealmDelegate.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-19-16-00-228.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-19-19-40-740.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-19-28-01-485.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-19-43-03-879.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-05-07-234.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-05-26-793.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-06-56-322.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-06-57-784.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-07-10-485.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-08-49-804.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-21-20-08-51-230.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-23-23-58-07-738.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-06-42-767.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-06-54-200.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-07-33-374.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-20-21-514.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-21-07-586.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-21-26-983.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-22-27-345.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-22-45-144.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-23-25-126.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-25-14-146.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-25-17-060.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-30-33-862.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-38-09-207.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-41-00-637.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-24-00-46-42-893.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin/daemon-is-alive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shopping_basket_android" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/ShoppingBasket.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/ShoppingBasket.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/api/ApiListService.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/api/ApiListService.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/api/helper/IoToMainThreadTransformer.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/api/helper/IoToMainThreadTransformer.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/dagger/component/NetComponent.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/dagger/component/NetComponent.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/dagger/module/AppModule.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/dagger/module/AppModule.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/dagger/module/NetModule.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/dagger/module/NetModule.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItemsWrapper.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingListItemsWrapper.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NavDrawViewHolder.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/NavDrawViewHolder.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/NewItemDialog.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/NewItemDialog.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ShoppingListAdapter.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab" afterPath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.values.at" afterPath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rxandroid_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rxandroid_1_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping_basket_android.iml" afterPath="$PROJECT_DIR$/shopping_basket_android.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" />
     </list>
     <ignored path="shopping_basket_android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -156,11 +69,21 @@
       <file leaf-file-name="ListActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
+            <state relative-caret-position="20">
               <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
               <folding>
                 <element signature="e#56#1467#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingList.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +94,7 @@
             <state relative-caret-position="380">
               <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
-                <marker date="1496888287530" expanded="false" signature="4381:4402" ph="&lt;~&gt;" />
+                <marker date="1496892485679" expanded="false" signature="4381:4402" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -190,16 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LifecycleActivity.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0-alpha2/jars/classes.jar!/android/arch/lifecycle/LifecycleActivity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NavDrawViewHolder.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/NavDrawViewHolder.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -212,11 +125,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -250,18 +173,6 @@
             <state relative-caret-position="320">
               <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingListItemDao.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/room/ShoppingListItemDao.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#48#273#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -2574,7 +2485,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/dagger/module/AppModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/api/helper/IoToMainThreadTransformer.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingListItemsWrapper.kt" />
@@ -2617,7 +2527,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/ShoppingBasket.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/room/ShoppingListItemDao.kt" />
         <option value="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/steamedhams/theshoppingbasket/databinding/ActivityListBinding.java" />
@@ -2625,6 +2534,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/NavDrawViewHolder.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt" />
       </list>
     </option>
   </component>
@@ -2961,10 +2872,11 @@
     <property name="DEBUGGABLE_PROCESS" value="com.steamedhams.theshoppingbasket" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="gitign&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/.gitignore&#10;shopp&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/room/ShoppingListDao.kt&#10;acti&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/activity_list.xml&#10;build&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/build.gradle&#10;shoppinglis&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;shoppinglistit&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt&#10;shoppinglist&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;buil&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/build.gradle&#10;hopping&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;api&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/api/ApiListService.kt&#10;.giti&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/shopping_basket_android/app/.gitignore&#10;gitig&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/.gitignore&#10;gradle&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/gradle/wrapper/gradle-wrapper.properties&#10;build.gr&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/build.gradle&#10;build.grad&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/shopping_basket_android/build.gradle&#10;R&#9;PSI&#9;JAVA://android.app.R&#10;ctiv&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/activity_list.xml&#10;av&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/nav_drawer_layout.xml&#10;draw&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/nav_drawer_layout.xml&#10;andr&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/AndroidManifest.xml" />
+    <property name="SearchEverywhereHistoryKey" value="shoppi&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;gitign&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/.gitignore&#10;shopp&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/room/ShoppingListDao.kt&#10;acti&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/activity_list.xml&#10;build&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/build.gradle&#10;shoppinglis&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;shoppinglistit&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingListItem.kt&#10;shoppinglist&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;buil&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/build.gradle&#10;hopping&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt&#10;api&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/java/com/steamedhams/theshoppingbasket/api/ApiListService.kt&#10;.giti&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/shopping_basket_android/app/.gitignore&#10;gitig&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/.gitignore&#10;gradle&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/gradle/wrapper/gradle-wrapper.properties&#10;build.gr&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/build.gradle&#10;build.grad&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/shopping_basket_android/build.gradle&#10;R&#9;PSI&#9;JAVA://android.app.R&#10;ctiv&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/activity_list.xml&#10;av&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/nav_drawer_layout.xml&#10;draw&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/res/layout/nav_drawer_layout.xml&#10;andr&#9;FILE&#9;file:///home/richard/code/shopping_basket_android/app/src/main/AndroidManifest.xml" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1496879319726" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;/home/richard/code/shopping_basket_android/app/.gitignore" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -3372,6 +3284,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3383,7 +3296,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9667382" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5579399" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4247312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3394,7 +3307,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3508,13 +3421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.3.1/359e2151410ddd89bd71ad92cef3d51d20a7e783/realm-android-library-2.3.1-sources.jar!/io/realm/internal/RealmProxyMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="130" column="45" lean-forward="false" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.3.1/359e2151410ddd89bd71ad92cef3d51d20a7e783/realm-android-library-2.3.1-sources.jar!/io/realm/Realm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14886">
@@ -3593,6 +3499,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49980">
           <caret line="2504" column="72" lean-forward="false" selection-start-line="2504" selection-start-column="68" selection-end-line="2504" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3666,6 +3573,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#47#358#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3711,14 +3621,6 @@
           <folding>
             <element signature="e#54#145#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3796,7 +3698,7 @@
         <state relative-caret-position="380">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
-            <marker date="1496888287530" expanded="false" signature="4381:4402" ph="&lt;~&gt;" />
+            <marker date="1496892485679" expanded="false" signature="4381:4402" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -3806,16 +3708,6 @@
         <state relative-caret-position="35120">
           <caret line="1822" column="0" lean-forward="false" selection-start-line="1822" selection-start-column="0" selection-end-line="1822" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding>
-            <element signature="e#56#1467#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3829,10 +3721,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/shoppinglist/ListActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <element signature="e#56#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/steamedhams/theshoppingbasket/data/model/ShoppingList.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>

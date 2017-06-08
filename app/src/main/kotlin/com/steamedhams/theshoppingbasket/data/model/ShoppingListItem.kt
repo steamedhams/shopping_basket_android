@@ -9,7 +9,7 @@ import android.arch.persistence.room.PrimaryKey
  * Created by richard on 13/02/17.
  */
 @Entity
-data class ShoppingListItem(@PrimaryKey(autoGenerate = true) var id: Long = -1,
+data class ShoppingListItem(@PrimaryKey(autoGenerate = true) var id: Long,
                             var listId : String = "",
                             var title: String = "",
                             var completed: Boolean = false) {

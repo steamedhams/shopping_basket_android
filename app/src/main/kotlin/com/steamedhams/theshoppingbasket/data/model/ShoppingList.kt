@@ -11,5 +11,5 @@ import android.arch.persistence.room.PrimaryKey
 @Entity
 data class ShoppingList(@PrimaryKey(autoGenerate = true) var id: Long = -1,
                         var title : String = "") {
-    constructor(title: String) : this(title = title, id = -1)
+    constructor(title: String) : this(title = title, id = 0)
 }
