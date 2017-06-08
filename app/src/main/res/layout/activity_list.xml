@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/nav_drawer_layout"
@@ -17,13 +15,14 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <android.support.v7.widget.Toolbar
+                <Toolbar
                     android:id="@+id/list_toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:background="@color/colorPrimary"
-                    app:titleTextColor="@color/white"
-                    app:navigationIcon="@drawable/ic_menu_white_24dp"
+                    android:titleTextColor="@color/white"
+                    android:textColor="@color/white"
+                    android:navigationIcon="@drawable/ic_menu_white_24dp"
                     android:elevation="@dimen/toolbar_elevation"/>
 
                 <android.support.v7.widget.RecyclerView

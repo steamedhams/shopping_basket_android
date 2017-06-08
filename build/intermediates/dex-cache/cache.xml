@@ -2,409 +2,463 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/d0c54eefaa1fd739ee646a6716aaf75c7e93ebea/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0db9d326a7765c2bae8d49e11023b3c9562c0d4d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/467ae26e23c66dea08ad50fc959c6ab5db815727/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b9fea2c09ba293cba3dd9a3b735570758cc0f06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/dbfe431f460fc61adddf9c429852daac2173ad87/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_af0ea8f2c23ff14aaf98dc3850f3bd2f587b6d00/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_ca38ac3b72b2b78b1d355aeacfb3b9ca5f85afdf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/42226914667c8111255c5964f891cea4e1e0ecc8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_993243e1f5faed51cb96bf94551be645818dc816/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_a478f2a0cdadef09e456b593132383e98f34a1b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/7b1f9134713ceca12cbd6df6b250e50648e2f8c5/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8bffb4146955fbd2507f7c1b351abe6f918c48f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.reactivex/rxkotlin/0.60.0/6729c889262e7c2cb6bba30cb9aa93d78167f69b/rxkotlin-0.60.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6729c889262e7c2cb6bba30cb9aa93d78167f69b">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxkotlin-0.60.0_b2898ff8e54e0b8d346974f8940d696f31510895/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6a4b29cb39fc643ca5d0d792189f01ce670395dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/ef7428e0967b9930e8e1eba37f82912a5b3e00e9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58b96c7cf73680f7332c003d8673389e16ae33de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/bbc97f575a9991873b9edbf1c8e9b831d4f4da0d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="12032271e6be735e811ad529cb08ff066c381640">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9b6a55d65a430f8a30a0f265ed07e37e8ffd48d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.0.0/624ff1e32f3c5f5d69d24928306c633bbfde6323/converter-moshi-2.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="624ff1e32f3c5f5d69d24928306c633bbfde6323">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-moshi-2.0.0_f7158ce558f25ca5390978df558cd722e7802abe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_2add9dc3c799c639dd7de7c5c22ef24b80304370/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.0_34b42685b4a9b05b1b86ae4717d1ee56e9e2609d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/be18a516d03396bf27adead55901f46acd1aab47/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed89098d09de490f3626055842d648254fae529c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/88d219ec19172ded3ad314fd18b30f180f902d9b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_866f963b21443c8379315f4bd6c76168221e88ad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/f810c1386f07e029fc716a57c00c5d5fc88cd8fd/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fc4c9bb79cfa745d1b0f6011bacd117d038dcbb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-13.0_15a204c40df162eeaa44458726daa91d8f7cb9f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.1/98e484e67f913e934559f7f55f0c94be5593f03c/kotlin-stdlib-1.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="98e484e67f913e934559f7f55f0c94be5593f03c">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.1.1_a59b1e7af250b315a72e19c4cc31e52d4756d83a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/a4c4dc96755a0b63bc43f967e1e53ab295adaa6a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55cd33f851a20f218694b8551096d1124245a854/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.1.0/9c665b797ef9427f6d73572642dcb5f90270f7d3/moshi-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/moshi-1.1.0_e414eae89c04259f108f2a5bfea48aa2306a431a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.8/55a1aa1cdcfd06b9950ca856e2bc2790e105146a/dagger-2.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.8_333b8f2bd2f044084c90f8f3376f7b1a58bbcbf2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/4f404019d12c8e12cc221a6fbc8adca6fb853100/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44e7925f9500c22f9c9c0440766626021a6b54bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/c4dcc04f6e17c439948912cca51c87cff01608df/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9742da80192902edfd72dce0cd3f3325fdace437/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cafcaaad762d6005f594c9ccde9bb017416d0ff4">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9757e4c1f6774c3cc5feb622297a601fda3b2e28/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/78dc98ebfa12e37a0683440705946ef2dea560d1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91e8986725d156c3cb9e9fbe95d025e7b32ed608/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.6.0_d66f2e7fbf539bb11dcdbacce55cfb5ab212c50f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/1c993666e11c9e21fae9a46cc3a8ff25be5e50dc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ffa3b6b6bab299dd9278e46b238176eb8aabd904/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/2336397fcd1605402bc3e23087b1c6ffa935e956/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f8095a5243dfc422c89a7fb429743837a7b5b04/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/e87615f9a272c08bbde8dd9a2ab828ad31740c13/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f0e92d45e6e788133b46732b468999511b597de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_e2fc892a7928bccdba6b95109eb89515cbbe6129/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/3311c33598e574872b338b13ad6ad4bc4ab43751/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_95826dbc78ebe0af7b65a22911342d1c4700bb3e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/5e4364a24d324350bae316a452feb1c93d8be57d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76cfe3d25289308521259fd8b069846cc4f086bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/c1af5b913ebec5a3028c0f6398eff1dd81aac57a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5b332d5c454ae1d099386fc5fc2c77ab99b964ae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/9c21fad0a8526c4a96c593e2715ba604322c385b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24288e3be87670deafa8412de5371a3db67f484f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/239340335b3a3e013ffa1784abacc0bc214f888f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88249a0458012dcba6d0534b15b9f0f2a67e8ee9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_7361e3b3a415858c9e8c963b6cc4f80776c8c752/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/okio-1.11.0_7361e3b3a415858c9e8c963b6cc4f80776c8c752.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/2859dd42738dc0043e2d159ef3dc05ed34fa7f07/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.0.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e9074c66e9fada0ca42e6aee89de3c53248d105b/classes.dex" />
+        revision="25.0.2"
+        sha1="b985bd4eb1abd0e7e1f49c9cdf80a0d3563bad2a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-11.0.0_857be5e60bfa52c7af323295dd40bc0653677c40.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_bf89a7aaaacc785b5c502863d75f6322676a9ee8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.3/b4b51d1925cdfda98fd861230c1ecb5855500129/baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/baseLibrary-2.2.3_88cb6aff2f9b4bd9195f60458280d56e5707463b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_19a9e5b89127e5209481271345afd2497f6d1d17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_a4fca173903578e4958807b10bde27a72aaca6bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_c2cb3dc8c5a944811b88f57d1aa2045de5663dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_41a5c0c9b0a751cb0f93c859bddf01dae23ea827.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/javax.inject-1_ca38ac3b72b2b78b1d355aeacfb3b9ca5f85afdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5f50e080b426327fe1851f6f7b5f836bff6ac9f">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-11.0.0_2d56f76f4a5c9721c5287f81d940296cba9c372b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_ccf766d38f4d1e5c303f70a58510b7c33bdafbdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.2.1_a09dba6178d67b9bafa385d96db3e575e19d30d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_51046a4650af60e5e0476919cc30cd1b4dc3e83e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.0.0-alpha2/29f2e15f5bf227b3c46b73defc4df8dfeb8abdc6/common-1.0.0-alpha2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29f2e15f5bf227b3c46b73defc4df8dfeb8abdc6">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/common-1.0.0-alpha2_a038a0cba2f26bdf48674bdec1848766887e7236.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.6.0_d66f2e7fbf539bb11dcdbacce55cfb5ab212c50f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.0_1752646ef1d7b929698bbc1a15d4ae6023dfbb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.persistence.room/rxjava2/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f4db87619bd61d7aa2fddebb2516076a34877cc3">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.persistence.room-rxjava2-1.0.0-alpha2_ad22df086b6d72952c330583ec194c23ac6a3ffe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_e9831ad47073a9634ffe5ce651d06ecb43753d86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e39662b49ef66950c0941aa5fd4c49346a7c341">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-11.0.0_b19bc6521b1a8c2edd745b6af22f20168d0593ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_dbf87df00632ccf950d080d95ca6f6cbdeb78d45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.8/55a1aa1cdcfd06b9950ca856e2bc2790e105146a/dagger-2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/dagger-2.8_333b8f2bd2f044084c90f8f3376f7b1a58bbcbf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5218116f2860a18ed72b702adba23bf653d085a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.persistence.room-support-db-1.0.0-alpha2_416ff280c5195936bc89b4bdc1305f8dd9655b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.6/b0100ee9ceee5d1861371aefc814cee3e78ed23b/rxjava-2.0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0100ee9ceee5d1861371aefc814cee3e78ed23b">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/rxjava-2.0.6_3ff346717af0d1de9d014967a6286022edc96d2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_7ab7d4b516fdb13791f181f8865c810adaaf103a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.0_f31245a73dc9b0b4317130ab0af18265fd394648.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.0.0/624ff1e32f3c5f5d69d24928306c633bbfde6323/converter-moshi-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="624ff1e32f3c5f5d69d24928306c633bbfde6323">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/converter-moshi-2.0.0_f7158ce558f25ca5390978df558cd722e7802abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.persistence.room/runtime/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc94945a4dce3183c6eb33ca73825d619b1ff516">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.persistence.room-runtime-1.0.0-alpha2_4ee2ca17d34bc80f378f099ae51415407951c632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.persistence.room/support-db-impl/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702dc69dc0997f014a2d62f8b220cdc19c39f2dd">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.persistence.room-support-db-impl-1.0.0-alpha2_7dc6851f1a1f7617ab68d29be7c412fe92a4c5d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_6a89c5f2fa678087299ecdc8760b4f58e2fa1548.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aba37a3eec04e174dc59f00cf4bd7992061d847a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-11.0.0_eeba77943fb54806c3e709368a641efb69424dab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a611d7a00671ec4eb3050a21425fae955a38eb8a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-11.0.0_0cf10041f5107354efb313632e547ae1b1774cf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_2add9dc3c799c639dd7de7c5c22ef24b80304370.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.reactivex/rxkotlin/0.60.0/6729c889262e7c2cb6bba30cb9aa93d78167f69b/rxkotlin-0.60.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6729c889262e7c2cb6bba30cb9aa93d78167f69b">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/rxkotlin-0.60.0_b2898ff8e54e0b8d346974f8940d696f31510895.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_7da5229b0d6216713b7135bb78e69197ecf92c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30854fe0b2a6e495a821d8f41f52c0a1d18d8d2a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-11.0.0_868913b4d7c2ae8a063d75264b87ec67b3973f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.core/core/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ceb2346440bde6da6782c47e01f73b9863ffef83">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.core-core-1.0.0-alpha2_4c16a6dd32fbc2dee3934361d315b1a94dde697b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_e2fc892a7928bccdba6b95109eb89515cbbe6129.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2-2/2b22828f027e103dcd45f3aa240338bfdb53d16b/kotlin-stdlib-1.1.2-2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b22828f027e103dcd45f3aa240338bfdb53d16b">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.1.2-2_a6e960ce07c35cdec7c51f8dad3da98e555848bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_b36c4ff17da74767e5b601531561d39b451fb883/classes.dex" />
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_b36c4ff17da74767e5b601531561d39b451fb883.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/2f143a08250f4ed5e69183ba810d0f52d80ac1d7/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_59936627c9b8a3ee6cf0df69d770624b29cb8667/classes.dex" />
+        revision="25.0.2"
+        sha1="ef65e4780d67d06abddd6e2d15dd4e0519ad8d8a">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-11.0.0_257ed8467e023049f8d3d56f5bdcf3b94785182f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/opt/android-studio/gradle/m2repository/com/android/databinding/baseLibrary/2.3.1/baseLibrary-2.3.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="2626e02aa9592edd5386d87408e05727303d9ded">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.1_ae02af758c5efbec9dcd63d21e3d708408bb5a5d/classes.dex" />
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_764ede8af6d782718a50acae655b2febaad6dd3f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/c761b448c4b298f8cba5a2a22fd2e875dcad4818/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c44dd7a265ccb61a70288822dd539a37992343a6/classes.dex" />
+        revision="25.0.2"
+        sha1="6585362d70187dccba28d09406c2ff9e4eb03af0">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0-alpha2_452f98e5568b227113261c7b015352e5634ff5bd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/8a79ef6d2291e94c1e09a1ef7211e040f63b197f/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/android.arch.lifecycle/extensions/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca9c4b1fbfd90e13a68d658dcffef0906a373a5d/classes.dex" />
+        revision="25.0.2"
+        sha1="1fbbf1fbbe3fb46b3bf3795e66244d0557f3c71f">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-extensions-1.0.0-alpha2_ffbe8044a5eece5ac57934fe77950ef93dada366.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.android/build-cache/b74929d4069ce2b2d9d7b2a63235d185bbc31a2f/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="888983f51cf34f57a93ff16832552f2f15937212">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6e16f54c981990910eb2b36e3723dcaf0e9377d/classes.dex" />
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_f89cdc84641832231f70889bb34b06233f6ac075.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/richard/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.1/1c1c75a7e1dfee58c51822987dc658f93e036c81/realm-annotations-2.3.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0-alpha2/3127d4c5a7b7f6987ecd3923b43f6a71b860091c/common-1.0.0-alpha2.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="1c1c75a7e1dfee58c51822987dc658f93e036c81">
-        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.3.1_e39d10526070345d93a2ef7b262494b4699cb0fd/classes.dex" />
+        revision="25.0.2"
+        sha1="3127d4c5a7b7f6987ecd3923b43f6a71b860091c">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/common-1.0.0-alpha2_c84bf32434dcca1faa35dbc40c4da3b0f27c48a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.2.1_c94b73d01bd11f668e48aae52eb46ceb3bbe7566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.1.0/9c665b797ef9427f6d73572642dcb5f90270f7d3/moshi-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/moshi-1.1.0_e414eae89c04259f108f2a5bfea48aa2306a431a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/annotations-13.0_15a204c40df162eeaa44458726daa91d8f7cb9f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e72c498ef3e345135b6bfdf7fc83c6b905228ade">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.0_4b3b1332c129c4c3e9703edd4d9a391afb07342f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.2/a60c039ba54c73d1133b72178e1b04133c73d13d/adapter-rxjava-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.2_4a9401b5432113d962efb3f094c562361b654a46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/richard/code/shopping_basket_android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/richard/code/shopping_basket_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_f4014426e9a946872bd92f25c881fc5de5e0f8ec.jar" />
     </item>
 
 </items>
