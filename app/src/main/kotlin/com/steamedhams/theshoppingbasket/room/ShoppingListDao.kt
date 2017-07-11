@@ -1,10 +1,7 @@
 package com.steamedhams.theshoppingbasket.room
 
 import android.arch.lifecycle.LiveData
-import android.arch.persistence.room.Dao
-import android.arch.persistence.room.Insert
-import android.arch.persistence.room.Query
-import android.arch.persistence.room.Update
+import android.arch.persistence.room.*
 import com.steamedhams.theshoppingbasket.data.model.ShoppingList
 
 /**
@@ -16,7 +13,7 @@ interface ShoppingListDao {
     @Query("SELECT * FROM shoppinglist")
     fun getAllShoppingLists(): LiveData<MutableList<ShoppingList>>
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(shoppingList: ShoppingList)
 
     @Update

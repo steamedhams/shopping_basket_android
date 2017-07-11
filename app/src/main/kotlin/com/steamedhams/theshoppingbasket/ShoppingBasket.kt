@@ -16,7 +16,6 @@ class ShoppingBasket : Application() {
 
     companion object {
         lateinit var netComponent : NetComponent
-        var database: BasketDatabase? = null
     }
 
     override fun onCreate() {
@@ -29,7 +28,6 @@ class ShoppingBasket : Application() {
 
         netComponent = DaggerNetComponent.builder().build()
 
-        ShoppingBasket.database =  Room.databaseBuilder(this, BasketDatabase::class.java, "shopping-basketX-db").build()
     }
 
 }

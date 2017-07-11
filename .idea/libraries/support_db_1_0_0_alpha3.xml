@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-db-1.0.0-alpha3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-db-1.0.0-alpha3.aar/0751fab31370cacb99a3a015159f2f6d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-db-1.0.0-alpha3.aar/0751fab31370cacb99a3a015159f2f6d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/support-db/1.0.0-alpha3/98bbae29d8c38652126731eb1b62a137a860e10/support-db-1.0.0-alpha3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
