@@ -56,7 +56,7 @@ dependencies {
     kapt "com.android.databinding:compiler:$gradle_version"
 
     compile 'io.reactivex:rxkotlin:0.60.0'
-    compile 'io.reactivex:rxandroid:1.2.0'
+    compile 'io.reactivex:rxandroid:1.2.1'
 
     // Dagger
     compile 'com.google.dagger:dagger:2.8'
@@ -64,18 +64,18 @@ dependencies {
     provided 'org.glassfish:javax.annotation:10.0-b28'
 
     // Retrofit
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile 'com.squareup.retrofit2:converter-moshi:2.0.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
 
 
     // Firebase
-    compile 'com.google.firebase:firebase-auth:11.0.0'
+    compile 'com.google.firebase:firebase-auth:11.0.1'
 
     // Google Services
     apply plugin: 'com.google.gms.google-services'
-    compile 'com.google.android.gms:play-services-auth:11.0.0'
+    compile 'com.google.android.gms:play-services-auth:11.0.1'
 
     // Room
     compile "android.arch.persistence.room:runtime:$room_version"

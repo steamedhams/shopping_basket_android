@@ -1,6 +1,0 @@
-COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
-FILE_PATH=/home/richard/code/shopping_basket_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar
-FILE_HASH=abd87c2b3e177f6ea34c04e3fc40843fbbe21611
-DX_VERSION=1.13
-JUMBO_MODE=true
-OPTIMIZE=true
