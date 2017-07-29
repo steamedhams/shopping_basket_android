@@ -22,3 +22,4 @@ app/src/main/assets/paperwork.json
 paperwork.json
 /fastlane
 *.log
+*.iml
