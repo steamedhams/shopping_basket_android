@@ -4,6 +4,7 @@
 /.idea/libraries
 .DS_Store
 /build
+/app/build
 /captures
 zendesk_scarlett_android.iml
 .idea/.name
