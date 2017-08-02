@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/nav_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:orientation="vertical">
 
-    <RelativeLayout
-        android:orientation="vertical"
-        android:layout_width="@dimen/nav_drawer_width"
+    <FrameLayout
+        android:id="@+id/userInfoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_drawer_header_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/light_grey">
+
+        <!--<include layout="@layout/user_info_panel"/>-->
+
+
+        <com.google.android.gms.common.SignInButton
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/googleSignInButton"
+            app:buttonSize="wide"
+            app:colorScheme="dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shopping_list_list"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
+        android:layout_above="@+id/newListButton"
+        android:layout_below="@id/userInfoContainer"
+        android:layout_gravity="start"/>
 
-        <FrameLayout
-            android:id="@+id/user_info_container"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/nav_drawer_header_height"
-            android:layout_alignParentTop="true"
-            android:background="@color/light_grey">
+    <Button
+        android:id="@+id/newListButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="@string/create_new_list"
+        android:textColor="@color/white"/>
 
-            <!--<include layout="@layout/user_info_panel"/>-->
-
-            <include
-                android:id="@+id/signin_panel"
-                layout="@layout/signin_panel"/>
-
-        </FrameLayout>
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/shopping_list_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/user_info_container"
-            android:layout_above="@+id/new_list_button"
-            android:layout_gravity="start"/>
-
-        <Button
-            android:id="@+id/new_list_button"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_alignParentBottom="true"
-            android:background="@color/colorAccent"
-            android:textColor="@color/white"
-            android:text="@string/create_new_list"/>
-
-    </RelativeLayout>
-
-</layout>
+</RelativeLayout>

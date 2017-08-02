@@ -2,73 +2,94 @@ package com.steamedhams.theshoppingbasket.shoppinglist
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.Observer
-import android.databinding.DataBindingUtil
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
+import butterknife.BindView
+import butterknife.ButterKnife
 import com.steamedhams.theshoppingbasket.R
 import com.steamedhams.theshoppingbasket.ShoppingBasket
+import com.steamedhams.theshoppingbasket.api.ApiListService
 import com.steamedhams.theshoppingbasket.data.model.ShoppingList
-import com.steamedhams.theshoppingbasket.databinding.NavDrawerLayoutBinding
-import com.steamedhams.theshoppingbasket.databinding.ShoppingListCellBinding
+import com.steamedhams.theshoppingbasket.room.BasketDatabase
 import com.steamedhams.theshoppingbasket.shoppinglist.NavDrawViewHolder.ShoppingListListAdapter.ShoppingListHolder
-import rx.Single
 import rx.schedulers.Schedulers
+import java.util.logging.Level
+import java.util.logging.Logger
+import javax.inject.Inject
 
 /**
  * Class responsible for inflating and managing the content of the Nav Drawer
  * <p>
  * Created by richard on 20/02/17.
  */
-class NavDrawViewHolder(binding : NavDrawerLayoutBinding?,
-                        activity : ListActivity,
-                        val onListSelected : (String) -> Unit)  {
+class NavDrawViewHolder(navDrawerView: View, activity: ListActivity, val onListSelected: (Long) -> Unit) {
 
-    val adapter : ShoppingListListAdapter
-    val listsLiveData : LiveData<MutableList<ShoppingList>>?
+    val LOG = Logger.getLogger(this.javaClass.name)
 
-    var lists : MutableList<ShoppingList> = ArrayList()
+    @Inject lateinit var database: BasketDatabase
+    @Inject lateinit var apiListService: ApiListService
+
+    val adapter: ShoppingListListAdapter
+    val listsLiveData: LiveData<MutableList<ShoppingList>>?
+
+    var lists: MutableList<ShoppingList> = ArrayList()
         set (value) {
             lists.clear()
             lists.addAll(value)
         }
 
-    init {
-        Log.d(NavDrawViewHolder::class.java.simpleName, "New list button clicked")
-        adapter = ShoppingListListAdapter()
-        binding?.shoppingListList?.adapter = adapter
-        binding?.shoppingListList?.layoutManager = LinearLayoutManager(binding?.root?.context)
+    @BindView(R.id.shopping_list_list)
+    lateinit var shoppingListList: RecyclerView
 
-        binding?.newListButton?.setOnClickListener {
-            NewItemDialog({itemName -> onItemCreated(itemName)})
+    @BindView(R.id.newListButton)
+    lateinit var newListButton: Button
+
+    init {
+        ShoppingBasket.netComponent.inject(this)
+        ButterKnife.bind(this, navDrawerView)
+
+        adapter = ShoppingListListAdapter()
+        shoppingListList.adapter = adapter
+        shoppingListList.layoutManager = LinearLayoutManager(navDrawerView.context)
+
+        newListButton.setOnClickListener {
+            NewItemDialog({ itemName -> onItemCreated(itemName) })
                     .show(activity.fragmentManager, NewItemDialog.getTag())
         }
-        listsLiveData = ShoppingBasket.database?.shoppingListDao()?.getAllShoppingLists()
-        listsLiveData?.observe(activity, Observer { lists ->
-            run {
+        listsLiveData = database.shoppingListDao().getAllShoppingLists()
+        listsLiveData.observe(activity, Observer {
+            lists ->
                 this.lists.clear()
-                lists?.forEach { list -> addList(list) }
-            }
+                lists?.forEach { list ->
+                    addList(list)
+                    LOG.info("Adding list to adapter: " + list.toString())
+                 }
         })
     }
 
-    fun onItemCreated(itemName : String) {
+    fun onItemCreated(itemName: String) {
         val list = ShoppingList(itemName)
-        Single.fromCallable {
-                        run {
-                            ShoppingBasket.database?.shoppingListDao()?.insert(list)
-                        }
-                    }
+
+        apiListService.createList(list)
                 .subscribeOn(Schedulers.io())
-                .subscribe()
+                .observeOn(Schedulers.io())
+                .subscribe( { shoppingList ->
+                        database.shoppingListDao().insert(shoppingList)
+                        LOG.info(list.toString())
+                }, {
+                    throwable ->
+                    LOG.log(Level.WARNING, "Fail to add list", throwable)
+                })
     }
 
     fun addList(list: ShoppingList) {
         lists.add(list)
         adapter.notifyDataSetChanged()
-        Log.d("LISTS", list.toString())
     }
 
     inner class ShoppingListListAdapter : RecyclerView.Adapter<ShoppingListHolder>() {
@@ -87,9 +108,8 @@ class NavDrawViewHolder(binding : NavDrawerLayoutBinding?,
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ShoppingListHolder {
 
-            val layoutInflater = LayoutInflater.from(parent!!.context)
-            val itemBinding = DataBindingUtil.inflate<ShoppingListCellBinding>(layoutInflater, viewType, parent, false)
-            return ShoppingListHolder(itemBinding)
+            val view = LayoutInflater.from(parent?.context).inflate(R.layout.shopping_list_cell, parent, false)
+            return ShoppingListHolder(view)
         }
 
         override fun onBindViewHolder(holder: ShoppingListHolder?, position: Int) {
@@ -97,12 +117,19 @@ class NavDrawViewHolder(binding : NavDrawerLayoutBinding?,
             holder?.bind(shoppingList)
         }
 
-        inner class ShoppingListHolder(val binding : ShoppingListCellBinding )
-            : RecyclerView.ViewHolder(binding.root) {
+        inner class ShoppingListHolder(val view: View)
+            : RecyclerView.ViewHolder(view) {
 
-            fun bind(list : ShoppingList) {
-                binding.shoppinglist = list
-                binding.root.setOnClickListener { onListSelected(list.title) }
+            @BindView(R.id.shopping_list_name)
+            lateinit var shoppingListName: TextView
+
+            init {
+                ButterKnife.bind(this, view)
+            }
+
+            fun bind(list: ShoppingList) {
+                shoppingListName.text = list.title
+                view.setOnClickListener { onListSelected(list.id) }
             }
         }
 

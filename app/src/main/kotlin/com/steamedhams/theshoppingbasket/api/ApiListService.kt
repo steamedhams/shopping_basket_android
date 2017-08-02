@@ -6,6 +6,7 @@ import com.steamedhams.theshoppingbasket.data.model.ShoppingListItemsWrapper
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.PUT
 import rx.Observable
 
 /**
@@ -13,9 +14,15 @@ import rx.Observable
  */
 interface ApiListService {
 
-    @POST("v1_test/item")
-    fun createListItem(@Body item : ShoppingListItem) : Observable<Void>
+    @GET("/list_items")
+    fun getListItems() : Observable<List<ShoppingListItem>>
+
+    @POST("/list_items")
+    fun createListItem(@Body item : ShoppingListItem) : Observable<ShoppingListItem>
 
     @GET("/lists")
     fun getLists() : Observable<List<ShoppingList>>
+
+    @POST("/lists")
+    fun createList(@Body list : ShoppingList) : Observable<ShoppingList>
 }

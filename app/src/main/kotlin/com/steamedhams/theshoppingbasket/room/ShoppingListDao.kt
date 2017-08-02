@@ -13,6 +13,9 @@ interface ShoppingListDao {
     @Query("SELECT * FROM shoppinglist")
     fun getAllShoppingLists(): LiveData<MutableList<ShoppingList>>
 
+    @Query("SELECT * FROM shoppinglist WHERE id = :arg0 LIMIT 1")
+    fun getList(listId : Long) : ShoppingList
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(shoppingList: ShoppingList)
 

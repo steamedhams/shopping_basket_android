@@ -1,14 +1,16 @@
 package com.steamedhams.theshoppingbasket.shoppinglist
 
 import android.app.DialogFragment
-import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
+import android.widget.EditText
+import android.widget.TextView
+import butterknife.BindView
+import butterknife.ButterKnife
 import com.steamedhams.theshoppingbasket.R
-import com.steamedhams.theshoppingbasket.databinding.NewListItemDialogBinding
 
 /**
  * Dialog class providing a dialog from which users can create new text based shopping list Items
@@ -17,23 +19,32 @@ import com.steamedhams.theshoppingbasket.databinding.NewListItemDialogBinding
  */
 class NewItemDialog(val callback : (String) -> Unit) : DialogFragment() {
 
-    private lateinit var binding : NewListItemDialogBinding
+    @BindView(R.id.dialog_cancel_button)
+    lateinit var dialogCancelButton : TextView
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        binding = DataBindingUtil.inflate<NewListItemDialogBinding>(inflater, R.layout.new_list_item_dialog, container, false)
+    @BindView(R.id.dialog_add_button)
+    lateinit var dialogAddButton : TextView
+
+    @BindView(R.id.new_list_item_edit_text)
+    lateinit var newListItemEditText : EditText
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        val view : View = inflater.inflate(R.layout.new_list_item_dialog, null)
+
+        ButterKnife.bind(this, view)
 
         dialog.setCanceledOnTouchOutside(true)
 
-        binding.dialogCancelButton.setOnClickListener { dialog.cancel() }
-        binding.dialogAddButton.setOnClickListener {
-            val text : String = binding.newListItemEditText.text.toString()
+        dialogCancelButton.setOnClickListener { dialog.cancel() }
+        dialogAddButton.setOnClickListener {
+            val text : String = newListItemEditText.text.toString()
             if (text.isNotEmpty()) {
                 callback(text)
             }
             dismiss()
         }
 
-        binding.newListItemEditText.setOnEditorActionListener { textView, _, _ ->
+        newListItemEditText.setOnEditorActionListener { textView, _, _ ->
             callback(textView.text.toString())
             dismiss()
             true
@@ -41,12 +52,12 @@ class NewItemDialog(val callback : (String) -> Unit) : DialogFragment() {
 
         dialog.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE)
 
-        return binding.root
+        return view
     }
 
     override fun onResume() {
         super.onResume()
-        binding.newListItemEditText.post {  binding.newListItemEditText.requestFocus() }
+        newListItemEditText.post { newListItemEditText.requestFocus() }
     }
 
     companion object Factory {

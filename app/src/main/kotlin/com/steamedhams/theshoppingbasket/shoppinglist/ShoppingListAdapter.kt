@@ -1,18 +1,21 @@
 package com.steamedhams.theshoppingbasket.shoppinglist
 
-import android.databinding.DataBindingUtil
 import android.graphics.Paint
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
+import android.view.View
 import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
+import android.widget.CheckBox
+import android.widget.ImageView
+import android.widget.TextView
+import butterknife.BindView
+import butterknife.ButterKnife
 import com.steamedhams.theshoppingbasket.R
 import com.steamedhams.theshoppingbasket.ShoppingBasket
 import com.steamedhams.theshoppingbasket.data.model.ShoppingListItem
-import com.steamedhams.theshoppingbasket.databinding.ShoppingListItemCellBinding
-import java.util.*
 
 /**
  * Adapter to create and provide views representing items in a ShoppingList
@@ -25,20 +28,17 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
         ShoppingBasket.netComponent.inject(this)
     }
 
+    val items : MutableList<ShoppingListItem> = ArrayList()
+
     var viewId : String = ""
         set(value) {
             field = value
-            notifyDataSetChanged()
         }
 
     val selectedPositions : MutableList<Int> = ArrayList()
 
     override fun getItemCount(): Int {
-        return getCountForList(viewId)
-    }
-
-    private fun getCountForList(viewId: String): Int {
-        return 0
+        return items.size
     }
 
     override fun getItemViewType(position: Int): Int {
@@ -47,27 +47,22 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ShoppingListItemHolder {
         val layoutInflater = LayoutInflater.from(parent!!.context)
-        val itemBinding = DataBindingUtil.inflate<ShoppingListItemCellBinding>(layoutInflater, viewType, parent, false)
-        return ShoppingListItemHolder(itemBinding, this)
+        val view = layoutInflater.inflate(viewType, parent, false)
+        return ShoppingListItemHolder(view, this)
     }
 
     override fun onBindViewHolder(holder: ShoppingListItemHolder?, position: Int) {
-        val listItem = getListItems()[position]
+        val listItem = items[position]
         holder?.bind(listItem)
         holder?.setRowSelected(selectedPositions.contains(position))
     }
 
-    private fun getListItems(): List<ShoppingListItem> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    fun clearItems() {
+        items.clear()
     }
 
     fun addItem(item : ShoppingListItem) {
-        addListItem(item)
-        notifyDataSetChanged()
-    }
-
-    private fun addListItem(item: ShoppingListItem) {
-
+        items.add(item)
     }
 
     private fun deleteItem(position: Int) {
@@ -85,48 +80,63 @@ class ShoppingListAdapter : RecyclerView.Adapter<ShoppingListAdapter.ShoppingLis
         notifyItemChanged(position)
     }
 
-    inner class ShoppingListItemHolder(val binding: ShoppingListItemCellBinding, val adapter :ShoppingListAdapter)
-            : RecyclerView.ViewHolder(binding.root) {
+    inner class ShoppingListItemHolder(val view : View, val adapter : ShoppingListAdapter)
+            : RecyclerView.ViewHolder(view) {
+
+        @BindView(R.id.shopping_list_item_check_box)
+        lateinit var shoppingListItemCheckBox : CheckBox
+        @BindView(R.id.shopping_list_item_delete_button)
+        lateinit var shoppingListItemDeleteButton : ImageView
+        @BindView(R.id.shopping_list_item_title)
+        lateinit var shoppingListItemTitle : TextView
+
+        init {
+            ButterKnife.bind(this, view)
+        }
 
         fun bind(item: ShoppingListItem) {
-            binding.item = item
+            shoppingListItemTitle.text = item.title
             decorateText(item.completed)
-            binding.root.setOnClickListener{ onCheckBoxClicked() }
-            binding.root.setOnLongClickListener {
+            view.setOnClickListener{ onCheckBoxClicked() }
+            view.setOnLongClickListener {
                 adapter.onViewLongPressed(adapterPosition)
                 true
             }
-            binding.shoppingListItemCheckBox.isClickable = false // Allow the row onCLick listener to handle click events
-            binding.shoppingListItemDeleteButton.setOnClickListener { adapter.deleteItem(adapterPosition) }
+            shoppingListItemCheckBox.isClickable = false // Allow the row onCLick listener to handle click events
+            shoppingListItemDeleteButton.setOnClickListener { adapter.deleteItem(adapterPosition) }
         }
 
         fun setRowSelected(selected : Boolean) {
-            binding.shoppingListItemDeleteButton.visibility = if (selected) VISIBLE else INVISIBLE
+            shoppingListItemDeleteButton.visibility = if (selected) VISIBLE else INVISIBLE
             if (selected) {
-                binding.root.setBackgroundColor(ContextCompat.getColor(binding.root.context, R.color.primary_light))
+                view.setBackgroundColor(ContextCompat.getColor(view.context, R.color.primary_light))
             } else {
-                binding.root.setBackgroundResource(R.drawable.white_ripple)
+                view.setBackgroundResource(R.drawable.white_ripple)
             }
         }
 
         private fun onCheckBoxClicked() {
-            binding.shoppingListItemCheckBox.performClick()
-            val checked = binding.shoppingListItemCheckBox.isChecked
+            shoppingListItemCheckBox.performClick()
+            val checked = shoppingListItemCheckBox.isChecked
             checkItem(checked, adapterPosition)
             decorateText(checked)
         }
 
         private fun decorateText(checked: Boolean) {
             if (checked) {
-                binding.shoppingListItemValue.paintFlags = binding.shoppingListItemValue.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
+                shoppingListItemTitle.paintFlags = shoppingListItemTitle.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
             } else {
-                binding.shoppingListItemValue.paintFlags = 0
+                shoppingListItemTitle.paintFlags = 0
             }
         }
     }
 
     private fun checkItem(checked: Boolean, adapterPosition: Int) {
-
+        if (checked) {
+            selectedPositions.add(adapterPosition)
+        } else {
+            selectedPositions.remove(adapterPosition)
+        }
     }
 
 }

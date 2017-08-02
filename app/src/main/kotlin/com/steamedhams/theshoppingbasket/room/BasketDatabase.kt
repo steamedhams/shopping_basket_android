@@ -8,7 +8,7 @@ import com.steamedhams.theshoppingbasket.data.model.ShoppingListItem
 /**
  * Created by richard on 08/06/17.
  */
-@Database(entities = arrayOf(ShoppingList::class, ShoppingListItem::class), version = 1)
+@Database(entities = arrayOf(ShoppingList::class, ShoppingListItem::class), version = 2)
 abstract class BasketDatabase : RoomDatabase() {
 
     abstract fun shoppingListDao(): ShoppingListDao

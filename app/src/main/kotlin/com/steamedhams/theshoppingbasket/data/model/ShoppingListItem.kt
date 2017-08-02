@@ -9,9 +9,9 @@ import android.arch.persistence.room.PrimaryKey
  * Created by richard on 13/02/17.
  */
 @Entity
-data class ShoppingListItem(@PrimaryKey(autoGenerate = true) var id: Long,
-                            var listId : String = "",
+data class ShoppingListItem(@PrimaryKey(autoGenerate = true) var id: Long = -1L,
                             var title: String = "",
+                            var list_id : Long = -1L,
                             var completed: Boolean = false) {
-    constructor(id: Long, listId: String) : this(id, listId, "", false)
+    constructor(title: String, listId: Long) : this(-1L, title, listId, false)
 }

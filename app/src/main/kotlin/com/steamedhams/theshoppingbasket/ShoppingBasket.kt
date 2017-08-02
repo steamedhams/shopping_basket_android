@@ -26,7 +26,7 @@ class ShoppingBasket : Application() {
     private fun setUpDagger() {
         appModule = AppModule(this)
 
-        netComponent = DaggerNetComponent.builder().build()
+        netComponent = DaggerNetComponent.builder().appModule(appModule).build()
 
     }
 
